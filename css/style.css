@@ -485,3 +485,25 @@
 .footer .copyright a:hover {
     color: #FFFFFF;
 }
+/* animation */
+
+    .text-animation{
+      color: #ffffff;
+      border-right: 2px solid orangered;
+      width: 0;
+      white-space: nowrap;
+      overflow: hidden;
+      animation: typing steps(15)forwards
+      infinite 8s;
+    
+    }
+    @keyframes typing {
+        0%{
+          width:0;
+        }
+        50%{
+          width:100%;
+        }
+        
+      }
+  
